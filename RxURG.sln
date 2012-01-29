@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxURG", "RxURG\RxURG.csproj", "{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxURGViewer", "RxURGViewer\RxURGViewer.csproj", "{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxURGTest", "RxURGTest\RxURGTest.csproj", "{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE380E17-FE38-4288-8F2C-F9436AD6922A}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RxURG.vsmdi = RxURG.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = RxURG.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Debug|x86.ActiveCfg = Debug|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Debug|x86.Build.0 = Debug|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Release|Any CPU.ActiveCfg = Release|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Release|x86.ActiveCfg = Release|x86
+		{B0DBB63E-7E2B-4D58-9C25-D8E5EFB59D71}.Release|x86.Build.0 = Release|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Debug|x86.ActiveCfg = Debug|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Debug|x86.Build.0 = Debug|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Release|Any CPU.ActiveCfg = Release|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Release|x86.ActiveCfg = Release|x86
+		{2EF71D56-AFEF-4C8A-A411-9BF052BCBF25}.Release|x86.Build.0 = Release|x86
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{162B9FC9-E4AD-4A18-B0D5-6519B2ED0ECB}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RxURG.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:RxURG.Moles.MObservableSerialPort">
+            <summary>Mole type of <see cref="T:RxURG.ObservableSerialPort"/>
+            .</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.#ctor(RxURG.ObservableSerialPort)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:RxURG.Moles.MObservableSerialPort.Bind(System.IObservable{System.Byte[]})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.ConstructorStringInt32ParityInt32StopBits">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.#ctor(System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.Dispose">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.SendString">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Send(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.SubscribeIObserverOfByteArray">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Subscribe(System.IObserver`1{System.Byte[]})"/>
+            </summary>
+        </member>
+        <member name="T:RxURG.Moles.MObservableSerialPort.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.AllInstances.Dispose">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.AllInstances.SendString">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Send(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MObservableSerialPort.AllInstances.SubscribeIObserverOfByteArray">
+            <summary>Sets the mole of <see cref="M:RxURG.ObservableSerialPort.Subscribe(System.IObserver`1{System.Byte[]})"/>
+            </summary>
+        </member>
+        <member name="T:RxURG.Moles.MSerialPortExtensions">
+            <summary>Mole type of <see cref="T:RxURG.SerialPortExtensions"/>
+            .</summary>
+        </member>
+        <member name="M:RxURG.Moles.MSerialPortExtensions.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:RxURG.Moles.MSerialPortExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:RxURG.Moles.MSerialPortExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions.DataReceivedAsObservableSerialPort">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.DataReceivedAsObservable(System.IO.Ports.SerialPort)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions.ErrorReceivedAsObservableSerialPort">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.ErrorReceivedAsObservable(System.IO.Ports.SerialPort)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions.ObserveReceiveBytesSerialPort">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.ObserveReceiveBytes(System.IO.Ports.SerialPort)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions._DataReceivedAsObservableb__0ActionOfSerialDataReceivedEventArgs">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.&lt;DataReceivedAsObservable&gt;b__0(System.Action`1{System.IO.Ports.SerialDataReceivedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions._ErrorReceivedAsObservableb__9ActionOfSerialErrorReceivedEventArgs">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.&lt;ErrorReceivedAsObservable&gt;b__9(System.Action`1{System.IO.Ports.SerialErrorReceivedEventArgs})"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions._ObserveReceiveBytesb__12SerialDataReceivedEventArgs">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.&lt;ObserveReceiveBytes&gt;b__12(System.IO.Ports.SerialDataReceivedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:RxURG.Moles.MSerialPortExtensions._ObserveReceiveBytesb__14SerialErrorReceivedEventArgs">
+            <summary>Sets the mole of <see cref="M:RxURG.SerialPortExtensions.&lt;ObserveReceiveBytes&gt;b__14(System.IO.Ports.SerialErrorReceivedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="T:RxURG.Moles.SObservableSerialPort">
+            <summary>Stub type of <see cref="T:RxURG.ObservableSerialPort"/>
+            .</summary>
+        </member>
+        <member name="M:RxURG.Moles.SObservableSerialPort.#ctor(System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:RxURG.Moles.SObservableSerialPort.InitializeStub">
+            <summary>Initializes a new instance of type SObservableSerialPort</summary>
+        </member>
+        <member name="P:RxURG.Moles.SObservableSerialPort.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:RxURG.Moles.SObservableSerialPort.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
